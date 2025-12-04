@@ -1,4 +1,4 @@
-# 🧘‍♂️ Coach Posture – Projet Nuit de l’Info 2024 x Decathlon
+# 🧘‍♂️ Coach Posture – Projet Nuit de l’Info 2025 x Decathlon
 
 Une application web simple et interactive qui aide l’utilisateur à :
 - mieux comprendre son **profil sportif**,
