@@ -1,73 +1,85 @@
-# 🧘‍♂️ Coach Posture – Projet Nuit de l’Info 2025 x Decathlon
+# 🧘‍♀️ CoachPost – Nuit de l’Info 2025
 
-Une application web simple et interactive qui aide l’utilisateur à :
-- mieux comprendre son **profil sportif**,
-- recevoir des **exercices adaptés** à son niveau / objectif,
-- visualiser la **bonne posture**,
-- découvrir une sélection de **produits Decathlon** en lien avec sa pratique.
+Projet développé pour la Nuit de l’Info 2024 : thème **“Devenez le CTO de votre santé posturale”**.
 
----
-
-## 🎯 Objectif du projet
-
-L’objectif est d’accompagner les utilisateurs dans une pratique sportive plus **saine**, **progressive** et **sécurisée**, en limitant les mauvaises postures et les blessures, tout en mettant en avant des produits adaptés (Decathlon).
-
-Ce projet a été réalisé dans le cadre de la **Nuit de l’Info**.
+L'objectif est d'aider les utilisateurs à réaliser des mouvements sportifs correctement afin de **prévenir les blessures**, grâce à :
+- un **profilage sportif rapide** (QCM),
+- des **exercices personnalisés**,
+- des **illustrations de posture**,
+- une **sélection de produits Decathlon** adaptés.
 
 ---
 
-## 🧩 Niveaux réalisés
+## 🚀 Lien vers la version en ligne
 
-### ✅ Niveau 1 – Profilage Sportif
-
-- Mise en place d’un **QCM** (niveau, sport principal, objectif, douleurs).
-- Le formulaire permet de générer un profil comme :
-  > "Débutant, objectif remise en forme, douleurs au dos, pratique : aucun sport / running / yoga..."
-
-### ✅ Niveau 2 – Instructions Personnalisées
-
-À partir des réponses :
-- Génération de **consignes textuelles** adaptées :
-  - exemples : échauffement, séries/reps, tempo, consignes de respiration, variantes selon le niveau.
-- Affichage dans une section dédiée : `Tes consignes personnalisées`.
-
-### ✅ Niveau 3 – Illustration & Visualisation
-
-- Affichage d’**illustrations / schémas / images** pour chaque mouvement.
-- Mise en forme en cartes (cards) avec :
-  - nom de l’exercice,
-  - description,
-  - visuel (placeholder ou image réelle),
-  - conseils posturaux.
-
-### ✅ Niveau 4 – Lien Commercial Pertinent (Bonus)
-
-- Section **“Sélection Decathlon pour toi”** :
-  - produits liés au profil (ex : tapis de yoga, bandes de résistance, haltères, rouleau de massage…),
-  - chaque carte contient :
-    - nom du produit,
-    - usage,
-    - type de pratique,
-    - lien cliquable (placeholder ou lien vers decathlon.fr).
+👉 **https://sahargab.github.io/CoachPost/**  
+*(Remplacer par le bon lien une fois GitHub Pages activé)*
 
 ---
 
-## 🏗️ Stack & choix techniques
+## 🧩 Fonctionnalités réalisées
 
-- **Front-end :**
-  - HTML + CSS
-  - [Tailwind CSS (CDN)](https://tailwindcss.com/)
-- **Aucune base de données / backend** :
-  - tout se fait côté navigateur (JavaScript simple).
-- **Responsive design** :
-  - structure en sections (`hero`, `à propos`, `profil`, `instructions`, `visualisation`, `produits`).
+### ✅ Niveau 1 – Profilage Sportif  
+QCM complet permettant de définir :
+- le niveau sportif  
+- le sport pratiqué  
+- l'objectif  
+- les douleurs éventuelles  
+
+### ✅ Niveau 2 – Instructions Personnalisées  
+À partir du profil, des exercices adaptés sont générés automatiquement.  
+Chaque exercice contient :
+- une description simple
+- des adaptations selon les douleurs
+
+### ✅ Niveau 3 – Illustrations  
+Des visuels (images) sont affichés pour montrer la bonne posture.
+
+### ✅ Niveau 4 – Produits Decathlon (Bonus)  
+Affichage d’une sélection de produits pertinents pour accompagner la pratique sportive.
 
 ---
 
-## 🚀 Lancer le projet
+## 🛠️ Comment lancer le projet
 
-### 1️⃣ Prérequis
+Aucun backend. Tout fonctionne côté navigateur.
 
-- Un simple navigateur web moderne (Chrome, Firefox, Edge…).
-- (Optionnel) L’extension **Live Server** de VS Code pour recharger automatiquement.
+### 📌 Option 1 : Ouvrir directement  
+Double-cliquer sur `index.html`
 
+### 📌 Option 2 : Live Server (VS Code)  
+1. Installer l’extension **Live Server**  
+2. Clic droit → **Open with Live Server**
+
+---
+
+## 🧠 Choix techniques
+
+- **HTML + Tailwind CSS** (CDN pour aller plus vite)
+- **JavaScript Vanilla** pour :
+  - lire le formulaire
+  - générer les exercices
+  - afficher dynamiquement les sections
+- **Aucune base de données** pour un chargement immédiat
+
+---
+
+## ⚠️ Difficultés rencontrées
+
+- Ajustement du design Tailwind sous la contrainte du temps  
+- Organisation des sections dynamiques (show/hide)  
+- Création des adaptations posturales selon les douleurs  
+- Déploiement GitHub Pages  
+
+---
+
+## 👥 Équipe
+
+- Sahar Gabsi – Développement front & logique JS
+
+---
+
+## 📩 Contact
+
+En cas de question :
+- GitHub : https://github.com/SaharGab
