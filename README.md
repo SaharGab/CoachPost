@@ -71,8 +71,3 @@ Ce projet a été réalisé dans le cadre de la **Nuit de l’Info**.
 - Un simple navigateur web moderne (Chrome, Firefox, Edge…).
 - (Optionnel) L’extension **Live Server** de VS Code pour recharger automatiquement.
 
-### 2️⃣ Installation
-
-```bash
-git clone https://github.com/TON_USER/TON_REPO.git
-cd TON_REPO
