@@ -1,51 +1,78 @@
-## [Landwind - Tailwind CSS Landing Page](https://demo.themesberg.com/landwind/)
+# 🧘‍♂️ Coach Posture – Projet Nuit de l’Info 2024 x Decathlon
 
-<a href="https://demo.themesberg.com/landwind/" rel="Tailwind CSS Landing Page">![Tailwind CSS Landing Page Demo - Flowbite](https://themesberg.s3.us-east-2.amazonaws.com/public/github/landwind/thumbnail.png)</a>
+Une application web simple et interactive qui aide l’utilisateur à :
+- mieux comprendre son **profil sportif**,
+- recevoir des **exercices adaptés** à son niveau / objectif,
+- visualiser la **bonne posture**,
+- découvrir une sélection de **produits Decathlon** en lien avec sa pratique.
 
-Landwind is a free and open-source landing page built for SaaS and product websites based on the Tailwind CSS utility-first framework and the Flowbite Component Library featuring a hero section, customer logos, feature sections, testimonials, pricing cards, FAQ section, pre-footer CTA button and a footer.
+---
 
-Built with ❤️ by [Themesberg](https://themesberg.com) based on Tailwind CSS and Flowbite.
+## 🎯 Objectif du projet
 
-## Live preview
+L’objectif est d’accompagner les utilisateurs dans une pratique sportive plus **saine**, **progressive** et **sécurisée**, en limitant les mauvaises postures et les blessures, tout en mettant en avant des produits adaptés (Decathlon).
 
-Check out a live demo by clicking here:
+Ce projet a été réalisé dans le cadre de la **Nuit de l’Info**.
 
-🔗 [Landwind live preview](https://demo.themesberg.com/landwind/) (🌗 switch on dark mode using your computer preferences)
+---
 
-## Getting started
+## 🧩 Niveaux réalisés
 
-Make sure that you have [Node.js](https://nodejs.org/en/), [Tailwind CSS](https://tailwindcss.com/docs/installation) and [Flowbite](https://flowbite.com/docs/getting-started/quickstart/) installed.
+### ✅ Niveau 1 – Profilage Sportif
 
-1. Run `npm install` inside your terminal
+- Mise en place d’un **QCM** (niveau, sport principal, objectif, douleurs).
+- Le formulaire permet de générer un profil comme :
+  > "Débutant, objectif remise en forme, douleurs au dos, pratique : aucun sport / running / yoga..."
 
-2. Watch for files and compile Tailwind CSS + Flowbite:
+### ✅ Niveau 2 – Instructions Personnalisées
 
-```
-npx tailwindcss -i ./input.css -o ./output.css --watch
-```
+À partir des réponses :
+- Génération de **consignes textuelles** adaptées :
+  - exemples : échauffement, séries/reps, tempo, consignes de respiration, variantes selon le niveau.
+- Affichage dans une section dédiée : `Tes consignes personnalisées`.
 
-3. To deploy you will only need the `index.html` file and the `output.css` styles.
+### ✅ Niveau 3 – Illustration & Visualisation
 
-Alternatively you can also just directly copy this code into your own projects, whether you use Laravel, React, Vue.js or other frameworks.
+- Affichage d’**illustrations / schémas / images** pour chaque mouvement.
+- Mise en forme en cartes (cards) avec :
+  - nom de l’exercice,
+  - description,
+  - visuel (placeholder ou image réelle),
+  - conseils posturaux.
 
-## Figma design file
+### ✅ Niveau 4 – Lien Commercial Pertinent (Bonus)
 
-We have also built a free Figma design file that you can duplicate from the community website:
+- Section **“Sélection Decathlon pour toi”** :
+  - produits liés au profil (ex : tapis de yoga, bandes de résistance, haltères, rouleau de massage…),
+  - chaque carte contient :
+    - nom du produit,
+    - usage,
+    - type de pratique,
+    - lien cliquable (placeholder ou lien vers decathlon.fr).
 
-👉 [Landwind - Figma Landing Page](https://www.figma.com/community/file/1125744163617429490)
+---
 
-## Built with Tailwind CSS and Flowbite
+## 🏗️ Stack & choix techniques
 
-This landing page was built using the following technologies:
+- **Front-end :**
+  - HTML + CSS
+  - [Tailwind CSS (CDN)](https://tailwindcss.com/)
+- **Aucune base de données / backend** :
+  - tout se fait côté navigateur (JavaScript simple).
+- **Responsive design** :
+  - structure en sections (`hero`, `à propos`, `profil`, `instructions`, `visualisation`, `produits`).
 
-- 🔗 [Tailwind CSS](https://tailwindcss.com/)
-- 🔗 [Flowbite Library](https://flowbite.com/docs/getting-started/introduction/)
-- 🔗 [Flowbite Blocks](https://flowbite.com/blocks/)
+---
 
-## About us
+## 🚀 Lancer le projet
 
-We build free and premium themes with technologies such as Bootstrap, React, Tailwind, Vue, Laravel and more over at [Themesberg](https://themesberg.com).
+### 1️⃣ Prérequis
 
-## License
+- Un simple navigateur web moderne (Chrome, Firefox, Edge…).
+- (Optionnel) L’extension **Live Server** de VS Code pour recharger automatiquement.
 
-This project is open source under the MIT license.
+### 2️⃣ Installation
+
+```bash
+git clone https://github.com/TON_USER/TON_REPO.git
+cd TON_REPO
