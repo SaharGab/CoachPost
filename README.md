@@ -13,7 +13,7 @@ L'objectif est d'aider les utilisateurs à réaliser des mouvements sportifs cor
 ## 🚀 Lien vers la version en ligne
 
 👉 **https://sahargab.github.io/CoachPost/**  
-*(Remplacer par le bon lien une fois GitHub Pages activé)*
+
 
 ---
 
